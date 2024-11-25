@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player | Jaycode</title>
+</head>
+<body>
+    <h1>Music Player</h1>
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">Kese</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <audio src="./music/Kese(Dance).mp3" id="audio"></audio>
+
+        <div class="image-container">
+            <img src="./images/kese.png" alt="music-cover" id="cover">
+        </div>
+
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class='bx bx-skip-previous'></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class='bx bx-play'></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class='bx bx-skip-next'></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
